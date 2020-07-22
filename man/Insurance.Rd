@@ -4,20 +4,23 @@
 \name{Insurance}
 \alias{Insurance}
 \title{Costs for health insurance}
-\format{A data.frame wherein each row is one state in the US
-
-- `state`: state of insured.
-- `average_QHP`: The number of qualified health plans
-- `bronze_lowest`: premium for the lowest bronze level of insurance for a single person ($)
-- `silver_lowest`: premium for the lowest silver level of insurance for a single person ($)
-- `gold_lowest`: premium for the lowest gold level of insurance for a single person ($)
-- `catastrophic`: premium for the catastrophic level of insurance for a single person ($)
-- `second_silver_pretax`: premium for the second silver level of insurance for a single person pretax ($)
-- `second_silver_posttax`: premium for the second silver level of insurance for a single person posttax ($)
-- `second_bronze_posttax`: premium for the lowest bronze level of insurance for a single person posttax ($)
-- `silver_family_pretax`: premium for the silver level of insurance for a family pretax ($)
-- `silver_family_posttax`: premium for the silver level of insurance for a family posttax ($)
-- `bronze_family_posttax`: premium for the bronze level of insurance for a family posttax ($)}
+\format{
+A data.frame wherein each row is one state in the US
+\itemize{
+\item \code{state}: state of insured.
+\item \code{average_QHP}: The number of qualified health plans
+\item \code{bronze_lowest}: premium for the lowest bronze level of insurance for a single person ($)
+\item \code{silver_lowest}: premium for the lowest silver level of insurance for a single person ($)
+\item \code{gold_lowest}: premium for the lowest gold level of insurance for a single person ($)
+\item \code{catastrophic}: premium for the catastrophic level of insurance for a single person ($)
+\item \code{second_silver_pretax}: premium for the second silver level of insurance for a single person pretax ($)
+\item \code{second_silver_posttax}: premium for the second silver level of insurance for a single person posttax ($)
+\item \code{second_bronze_posttax}: premium for the lowest bronze level of insurance for a single person posttax ($)
+\item \code{silver_family_pretax}: premium for the silver level of insurance for a family pretax ($)
+\item \code{silver_family_posttax}: premium for the silver level of insurance for a family posttax ($)
+\item \code{bronze_family_posttax}: premium for the bronze level of insurance for a family posttax ($)
+}
+}
 \source{
 Health Insurance Market Place Retrieved from website: http://aspe. hhs.gov/health/reports/2013/marketplacepremiums/ib_premiumslandscape. pdf premiums for 2014.
 }

@@ -4,7 +4,9 @@
 \name{Firearm}
 \alias{Firearm}
 \title{Deaths from firearms}
-\format{A data.frame wherein each row is year}
+\format{
+A data.frame wherein each row is year
+}
 \source{
 Deaths from firearms. (2013, September 26).
 }
@@ -12,7 +14,7 @@ Deaths from firearms. (2013, September 26).
 data(Firearm)
 }
 \description{
-The number of deaths caused by Firearms in Australia from 1983 to 1997, 
+The number of deaths caused by Firearms in Australia from 1983 to 1997,
 expressed as a rate per 100,000 population.
 }
 \references{

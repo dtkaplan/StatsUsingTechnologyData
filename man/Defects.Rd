@@ -4,8 +4,10 @@
 \name{Defects}
 \alias{Defects}
 \title{Defects in eyeglass manufacturing}
-\format{A data.frame with one variable. Each row is
-one pair of eyeglasses manufactured by Eyeglass-omatic}
+\format{
+A data.frame with one variable. Each row is
+one pair of eyeglasses manufactured by Eyeglass-omatic
+}
 \source{
 Personal communication from John Matic,
 a consultant to Eyeglass-omatic in Australia. (The company’s name is fictitious, but the data is from an actual company.)

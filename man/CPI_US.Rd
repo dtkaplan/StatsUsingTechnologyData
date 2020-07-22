@@ -4,15 +4,18 @@
 \name{CPI_US}
 \alias{CPI_US}
 \title{US Consumer Price Index over the years}
-\format{A data.frame wherein each row is year
-
-- `Year`: Year from 1913 to 2019
-- `Jan`, `Feb`, and so on: CPI for a particular month
-- `Average_Avg`: The average CPI for a particular year
-- `PerDec_Dec`: Percent change from December to December 
-- `Per_Avg_Avg`: Percent change from Annual Average to Annual Average}
+\format{
+A data.frame wherein each row is year
+\itemize{
+\item \code{Year}: Year from 1913 to 2019
+\item \code{Jan}, \code{Feb}, and so on: CPI for a particular month
+\item \code{Average_Avg}: The average CPI for a particular year
+\item \code{PerDec_Dec}: Percent change from December to December
+\item \code{Per_Avg_Avg}: Percent change from Annual Average to Annual Average
+}
+}
 \source{
-Consumer Price Index Data from 1913 to 2019. (2019, June 12). 
+Consumer Price Index Data from 1913 to 2019. (2019, June 12).
 Retrieved July 10, 2019, from https://www.usinflationcalculator.com/inflation/ consumer-price-index-and-annual-percent-changes-from-1913-to-2008/
 }
 \usage{

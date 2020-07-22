@@ -4,13 +4,16 @@
 \name{Eyeglasses}
 \alias{Eyeglasses}
 \title{Processes used in eyeglass manufacturing}
-\format{A data.frame with one variable. Each row is
+\format{
+A data.frame with one variable. Each row is
 one pair of eyeglasses manufactured by Eyeglass-omatic
-
-- `activity` the operation performed on the eyeglasses. For each
+\itemize{
+\item \code{activity} the operation performed on the eyeglasses. For each
 pair of glasses, the company performeds a single operation:
-`Assemble`, `Grind`, put the `frames` together. `received` means
-the eyeglasses were already totally finished. Guess what `Unknown` means!}
+\code{Assemble}, \code{Grind}, put the \code{frames} together. \code{received} means
+the eyeglasses were already totally finished. Guess what \code{Unknown} means!
+}
+}
 \source{
 Personal communication from John Matic,
 a consultant to Eyeglass-omatic in Australia. (The company’s name is fictitious, but the data is from an actual company.)
